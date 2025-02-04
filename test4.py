@@ -41,6 +41,8 @@ def test_interactions():
             page.get_by_role("button", name="Продолжить").click()
             page.get_by_placeholder("––––").fill("2211")
 
+
+
             time.sleep(2)
         except Exception as e:
             page.screenshot(path="screenshot_error.png")
