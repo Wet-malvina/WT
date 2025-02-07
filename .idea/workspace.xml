@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409e0ef7-e9de-4151-aaae-b693606ef3a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6_15us.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/test4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/page_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshot_error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/test5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6_15us.py" beforeDir="false" afterPath="$PROJECT_DIR$/test6_15us.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for rr.test_interactions.executor": "Run",
+    "Python tests.Python tests for test7.test_interactions.executor": "Run",
+    "Python tests.Python tests for в.test_interactions.executor": "Run",
+    "Python tests.Python tests in rr.py.executor": "Run",
+    "Python tests.Python tests in в.py.executor": "Run",
+    "Python.rr.executor": "Run",
     "Python.test5.executor": "Run",
     "Python.test6_15us.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -43,55 +52,89 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test6_15us">
-    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test7.test_interactions">
+    <configuration name="Python tests for в.test_interactions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WT" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;в.test_interactions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test6_15us" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for rr.test_interactions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WT" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test6_15us.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;rr.test_interactions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test7.test_interactions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test7.test_interactions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in в.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/в.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in rr.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/rr.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test6_15us" />
-        <item itemvalue="Python.test5" />
+        <item itemvalue="Python tests.Python tests for test7.test_interactions" />
+        <item itemvalue="Python tests.Python tests for в.test_interactions" />
+        <item itemvalue="Python tests.Python tests for rr.test_interactions" />
+        <item itemvalue="Python tests.Python tests in в.py" />
+        <item itemvalue="Python tests.Python tests in rr.py" />
       </list>
     </recent_temporary>
   </component>

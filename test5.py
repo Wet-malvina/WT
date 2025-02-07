@@ -12,7 +12,7 @@ def run(playwright: Playwright, iteration: int) -> bool:
     page = context.new_page()
 
     try:
-        page.goto("https://dev.parkuley.ru/parking/894b9a5d-a6fa-47b8-b0a3-42b4c585108d?rentSmart")
+        page.goto("https://dev.parkuley.ru/parking/05760dba-e90b-4bee-a9d3-ce0938a3b160?rentSmart")
         page.get_by_role("button", name="Открыть въезд").click()
 
         success = True
@@ -27,7 +27,7 @@ def run(playwright: Playwright, iteration: int) -> bool:
 
 
 def main():
-    max_iterations = 100
+    max_iterations = 1000
     successful_iterations = 0
 
     with sync_playwright() as playwright:

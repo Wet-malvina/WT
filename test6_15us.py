@@ -3,26 +3,26 @@ import random
 import time
 from playwright.async_api import async_playwright
 
-TOTAL_USERS = 15
-EXIT_USERS = 5
+TOTAL_USERS = 5
+EXIT_USERS = 2
 
 USER_CREDENTIALS = [
     {"phone": "+79201010612", "first_name": "Анна", "last_name": "Иванова", "email": "anna.ivanova@gmail.com"},
     {"phone": "+79201010002", "first_name": "Мария", "last_name": "Петрова", "email": "maria.petrova@yandex.ru"},
     {"phone": "+79201010003", "first_name": "Екатерина", "last_name": "Сидорова", "email": "ekaterina.sidorova@mail.ru"},
     {"phone": "+79201010004", "first_name": "Ольга", "last_name": "Кузнецова", "email": "olga.kuznetsova@rambler.ru"},
-    {"phone": "+79201010005", "first_name": "Татьяна", "last_name": "Попова", "email": "tatiana.popova@outlook.com"},
-    {"phone": "+79201010006", "first_name": "Наталья", "last_name": "Смирнова", "email": "natalia.smirnova@gmail.com"},
-    {"phone": "+79201010007", "first_name": "Елена", "last_name": "Васильева", "email": "elena.vasileva@yandex.ru"},
-    {"phone": "+79201010008", "first_name": "Светлана", "last_name": "Федорова", "email": "svetlana.fedorova@mail.ru"},
-    {"phone": "+79201010009", "first_name": "Алина", "last_name": "Морозова", "email": "alina.morozova@rambler.ru"},
-    {"phone": "+79201010010", "first_name": "Дарья", "last_name": "Новикова", "email": "daria.novikova@outlook.com"},
-    {"phone": "+79201010011", "first_name": "Вероника", "last_name": "Зайцева", "email": "veronika.zaytseva@gmail.com"},
-    {"phone": "+79201010012", "first_name": "Анастасия", "last_name": "Соловьева", "email": "anastasia.solovieva@yandex.ru"},
-    {"phone": "+79201010013", "first_name": "Виктория", "last_name": "Михайлова", "email": "victoria.mikhailova@mail.ru"},
-    {"phone": "+79201010014", "first_name": "Кристина", "last_name": "Беляева", "email": "kristina.belyaeva@rambler.ru"},
-    {"phone": "+79201010015", "first_name": "Полина", "last_name": "Тихонова", "email": "polina.tikhonova@outlook.com"},
-]
+    {"phone": "+79201010015", "first_name": "Татьяна", "last_name": "Попова", "email": "tatiana.popova@outlook.com"},]
+    #{"phone": "+79201010006", "first_name": "Наталья", "last_name": "Смирнова", "email": "natalia.smirnova@gmail.com"},
+    #{"phone": "+79201010007", "first_name": "Елена", "last_name": "Васильева", "email": "elena.vasileva@yandex.ru"},
+    #{"phone": "+79201010008", "first_name": "Светлана", "last_name": "Федорова", "email": "svetlana.fedorova@mail.ru"},
+    #{"phone": "+79201010009", "first_name": "Алина", "last_name": "Морозова", "email": "alina.morozova@rambler.ru"},
+    #{"phone": "+79201010010", "first_name": "Дарья", "last_name": "Новикова", "email": "daria.novikova@outlook.com"},
+    #{"phone": "+79201010011", "first_name": "Вероника", "last_name": "Зайцева", "email": "veronika.zaytseva@gmail.com"},
+    #{"phone": "+79201010012", "first_name": "Анастасия", "last_name": "Соловьева", "email": "anastasia.solovieva@yandex.ru"},
+    #{"phone": "+79201010013", "first_name": "Виктория", "last_name": "Михайлова", "email": "victoria.mikhailova@mail.ru"},
+    #{"phone": "+79201010014", "first_name": "Кристина", "last_name": "Беляева", "email": "kristina.belyaeva@rambler.ru"},
+    #{"phone": "+79201010015", "first_name": "Полина", "last_name": "Тихонова", "email": "polina.tikhonova@outlook.com"},
+#]
 
 
 async def user_actions(context, user, user_index):
@@ -76,8 +76,6 @@ async def user_actions(context, user, user_index):
         await page.screenshot(path=f"error_{user_index}.png")
     finally:
         await context.close()
-
-
 
 
 async def run_all_users():
