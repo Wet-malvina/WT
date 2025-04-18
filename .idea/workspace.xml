@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409e0ef7-e9de-4151-aaae-b693606ef3a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/page_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshot_error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/test5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test6_15us.py" beforeDir="false" afterPath="$PROJECT_DIR$/test6_15us.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +30,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for rr.test_interactions.executor": "Run",
-    "Python tests.Python tests for test7.test_interactions.executor": "Run",
-    "Python tests.Python tests for в.test_interactions.executor": "Run",
-    "Python tests.Python tests in rr.py.executor": "Run",
-    "Python tests.Python tests in в.py.executor": "Run",
-    "Python.rr.executor": "Run",
-    "Python.test5.executor": "Run",
-    "Python.test6_15us.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for rr.test_interactions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.test_interactions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for в.test_interactions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in rr.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in в.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test6_15us.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test7.test_interactions">
     <configuration name="Python tests for в.test_interactions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WT" />
